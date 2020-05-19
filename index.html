@@ -30,6 +30,7 @@ function makeCode () {
 }
 
 makeCode();
+$("#text").focus(function() { $(this).select(); } );
 
 $("#text").
 	on("blur", function () {
